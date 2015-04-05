@@ -1,1 +1,24 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,700italic);
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+
+$body-bg: 									#ecf0f1;
+$font-family-sans-serif:		'Roboto Condensed', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$navbar-default-bg:					#c0392b;
+$navbar-default-link-color:	#ecf0f1;
+$brand-primary:							#c0392b;
+$jumbotron-bg:							white;
+
 @import 'bootstrap';
+
+.center {
+	text-align: center;
+}
+
+.navbar{
+	font-weight: bold;
+}
+.navbar-brand{
+	font-family: 'Lobster';
+	font-weight: normal;
+	font-size: 200%;
+}
